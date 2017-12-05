@@ -4,7 +4,7 @@
 
 *You take the ***blue pill***, the story ends. You wake up in your bed and believe whatever you want to believe about your normal ideas on how to run DSE and your apps. You take the ***red pill***, you stay in Wonderland, I show you how deep the rabbit hole goes and you set sail on the Container ship of the future called  DSE on Docker*
 
-***Welcome to the real world!!!***
+## ***Welcome to the real world!!!***
 
 *Containers are the Future, [Google boast that they run everything in containers](https://www.theregister.co.uk/2014/05/23/google_containerization_two_billion/). So why not you?  Containers are scalable and fast to deploy, you can have a single node or multinode cluster up and running in minutes with just a few commands that is in a consistent, environment,  plus you can share them with your teammates and be the hero.*
 
