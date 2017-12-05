@@ -6,7 +6,7 @@
 
 ## ***Welcome to the real world!!!***
 
-*Containers are the Future, [Google boast that they run everything in containers](https://www.theregister.co.uk/2014/05/23/google_containerization_two_billion/). So why not you?  Containers are scalable and fast to deploy, you can have a single node or multinode cluster up and running in minutes with just a few commands that is in a consistent, environment,  plus you can share them with your teammates and be the hero.*
+*Containers are the Future, [Google boasts that they run everything in containers](https://www.theregister.co.uk/2014/05/23/google_containerization_two_billion/). So why not you?  Containers are scalable and fast to deploy, you can have a single node or multinode cluster up and running in minutes with just a few commands that is in a consistent, environment,  plus you can share them with your teammates and be the hero.*
 
 *There are multiple ways to get DSE on Docker.  You can pull DSE from *[Docker Store](https://store.docker.com/images/datastax)*, use docker compose or even roll your own from our public *[Github Repo](https://github.com/datastax/docker-images).**
 
@@ -54,7 +54,7 @@ docker run -e DS_LICENSE=accept --name my-dse -d store/datastax/dse-server:5.1.5
 docker run -e DS_LICENSE=accept --name my-dse -d store/datastax/dse-server:5.1.5 -s
 ```
 
-### **_Congratulations You have now graduated to Advanced training!_**
+## **_Congratulations You have now graduated to Advanced training!_**
 
 **_It’s time to build on the basics you learned and use some of the features that have been added to the DSE Docker container_**
 
