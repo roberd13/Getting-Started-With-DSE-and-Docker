@@ -1,6 +1,6 @@
 # Getting Started with DSE On Docker
 
-![image alt text](image_0.png)
+![](https://github.com/roberd13/Getting-Started-With-DSE-and-Docker/blob/master/red-bluepill.png)
 
 *You take the ***blue pill***, the story ends. You wake up in your bed and believe whatever you want to believe about your normal ideas on how to run DSE and your apps. You take the ***red pill***, you stay in Wonderland, I show you how deep the rabbit hole goes and you set sail on the Container ship of the future called  DSE on Docker*
 
