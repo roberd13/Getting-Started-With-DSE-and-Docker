@@ -74,11 +74,11 @@ docker run -e DS_LICENSE=accept --name my-dse -d store/datastax/dse-server:5.1.5
 
 3. *The file name must match a corresponding configuration file in the image and include all the required values, for example **cassandra.yaml**, **dse.yaml**, **opscenterd.conf**.*
 
-4. *Mount the local directory to the exposed Volume **/conf**.*
+4. *Mount the local directory to the exposed Volume **/config**.*
 
 5. *Start the container. For example to start a transactional node:*
 
-*`docker run -e DS_LICENSE=accept --name my-dse -d  -v /dse/conf:/conf store/datastax/dse-server:5.1.5`*
+*`docker run -e DS_LICENSE=accept --name my-dse -d  -v /dse/conf:/config store/datastax/dse-server:5.1.5`*
 
 *The DSE images also expose the following volumes.*
 
@@ -108,10 +108,10 @@ docker run -e DS_LICENSE=accept --name my-dse -d store/datastax/dse-server:5.1.5
 
 *`docker run -v <local_directory>:<container_volume>`*
 
-*Example Mount the host directory `/dse/conf` to the DSE volume `/conf` to manage configuration files.*
+*Example Mount the host directory `/dse/conf` to the DSE volume `/config` to manage configuration files.*
 
 ```
-docker run -e DS_LICENSE=accept --name my-dse -d  -v /dse/conf:/conf store/datastax/dse-server:5.1.5
+docker run -e DS_LICENSE=accept --name my-dse -d  -v /dse/conf:/config store/datastax/dse-server:5.1.5
 ```
 
 *See Docker docs > [Use volumes](https://docs.docker.com/engine/tutorials/dockervolumes/#mount-a-host-directory-as-a-data-volume) for more information.*
